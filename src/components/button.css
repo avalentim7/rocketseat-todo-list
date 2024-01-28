@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  color: var(--gray-100);
+  background-color: var(--blue-dark);
+  border: 1px solid #000;
+  border-radius: 8px;
+  width: 90px;
+  gap: 6px;
+
+  cursor: pointer;
+}
+
+.button-container:hover {
+  filter: brightness(0.9);
+}

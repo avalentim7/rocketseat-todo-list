@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  background-color: var(--gray-600);
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 736px;
+  height: 52px;
+  gap: 8px;
+  margin: -26px auto 0;
+}
+
+.tasks-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 736px;
+  margin: 0 auto;
+}
+
+
